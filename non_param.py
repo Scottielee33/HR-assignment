@@ -92,4 +92,4 @@ ceo_type['pca1'] = pca[:, 1]
 ceo_type['pca2'] = pca[:, 0]
 ceo_type['k_means'] = x[1]
 
-ceo_type.to_csv('clustersp.csv')
+ceo_type.to_csv('clusters_python.csv')

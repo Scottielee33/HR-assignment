@@ -99,4 +99,4 @@ k_means_result <- kmeans(agg_data_share, 2)
 ceo_type <- data.frame(id = id, pca1 = pca[,2], pca2 = pca[,1], k_means = k_means_result$cluster)
 row.names(ceo_type) <- NULL
 
-write.csv(ceo_type, 'clustersr.csv', row.names = FALSE)
+write.csv(ceo_type, 'clusters_r.csv', row.names = FALSE)
